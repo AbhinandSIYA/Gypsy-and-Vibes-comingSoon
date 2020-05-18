@@ -1,3 +1,20 @@
-.main{
-    background-color: blueviolet;
-}
+
+.page-holder {
+    min-height: 100vh;
+  }
+  
+  .bg-cover {
+    background-size: cover !important;
+  }
+  h1 { font-family: Arial, Helvetica; font-size: 31px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 34.1px; }
+  .bg-text{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+  }
